@@ -1,6 +1,4 @@
 
-#### 2. N-Queens Problem using Hill Climbing (`Q2_NQueens_HillClimbing/README.md`)
-```markdown
 # N-Queens Problem using Hill Climbing
 
 This script solves the N-Queens problem using a hill-climbing approach. The goal is to place `N` queens on an `N x N` chessboard so that no two queens attack each other.
