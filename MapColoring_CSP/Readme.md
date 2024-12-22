@@ -1,16 +1,14 @@
-# Minimax Algorithm with Alpha-Beta Pruning
 
-This program implements the Minimax algorithm with Alpha-Beta pruning for a 2-player game. It includes:
-- A game model with rules and state evaluation.
-- Implementation of the Minimax algorithm to find optimal moves.
-- Alpha-Beta pruning for efficiency.
+# Map Coloring Problem using CSP
+
+This script solves the Map Coloring problem using Constraint Satisfaction Problem (CSP) techniques. It assigns colors to regions of a map such that no two adjacent regions have the same color.
 
 ## How It Works
-1. Players take turns making moves (`X` and `O`).
-2. The algorithm evaluates the game state and chooses the best move for the player.
-3. The game ends when there is a win or draw.
+1. Represents regions as variables with color domains.
+2. Uses backtracking to assign colors.
+3. Prunes the search space to improve efficiency.
 
 ### Usage
 Run the script using Python:
 ```bash
-python Q1.py
+python Q3.py
